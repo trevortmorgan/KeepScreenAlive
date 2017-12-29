@@ -9,7 +9,7 @@ function timer () {
     robot.moveMouse(mouse.x, mouse.y + 1 );
     robot.moveMouse(mouse.x, mouse.y);
 
-    setTimeout(timer, 2000); 
+    setTimeout(timer, 600000); 
 
     console.log(awake);
 
